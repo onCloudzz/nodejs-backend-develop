@@ -1,0 +1,12 @@
+{
+    "name": "test-scripts",
+    "version": "1.0.0",
+    "scripts": {
+        "hello": "echo \"Hello, world!\""
+    },
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}

@@ -1,0 +1,28 @@
+@server = http://localhost:3000
+
+### Create a person
+POST {{server}}/person
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "age": 25,
+    "email": "asdf@asd.com"
+}
+
+### Get all persons
+GET {{server}}/person
+
+### Get a person
+GET {{server}}/person/asdf@asd.com
+
+### Update a person
+PUT {{server}}/person/asdf@asd.com
+Content-Type: application/json
+
+{
+    "age": 26
+}
+
+### Delete a person
+DELETE {{server}}person/asdf@asd.com
